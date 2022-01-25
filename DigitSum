@@ -1,0 +1,12 @@
+#Python sample code 
+# sum of digit of given number
+print("digits sum \n")
+a=input("enter the value\n")
+sum=0
+while(int(a)>0):
+    b=int(a)%10
+    sum+=b
+    a=int(a)/10
+    
+print("the diguts sum is : ",sum)
+            
