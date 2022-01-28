@@ -1,0 +1,7 @@
+airline=['airasia','indigo','arabic','tata']
+air="jobin"
+if air in airline:
+    print("airline fount in the list")
+else:
+    print("this airline not fount in the list")
+        
